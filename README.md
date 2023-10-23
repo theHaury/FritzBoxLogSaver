@@ -49,7 +49,7 @@
 
 ## Configuration
 
-Create a settings.yaml file with the following configuration:
+1. Create a settings.yaml file with the following configuration:
 
     ```yaml
     url: http://fritz.box  # URL of your FRITZ!Box
@@ -61,7 +61,7 @@ Create a settings.yaml file with the following configuration:
     logpath: fritzLog.csv  # Path to the CSV log file
     ```
 
-Modify the values according to your FRITZ!Box login credentials and preferences.
+2. Modify the values according to your FRITZ!Box login credentials and preferences.
 
 ## Scheduled logging
 
