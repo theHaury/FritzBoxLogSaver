@@ -1,0 +1,17 @@
+# URL of your fritzbox. May also be http://fritz.box
+url: "http://192.168.178.1"
+# Your password for the Fritzbox Login
+password: ""
+# Your username for the Fritzbox Login
+username: ""
+# The Filename of the logfile
+filename: "fritzLog.csv"
+# Excluded Messages
+exclude:
+# Example how to exclude a message that contains multiple independet strings
+  - - 192.168.178.23
+    - Anmeldung
+    # When the Message contains "192.168.178.23" and "Anmeldung" it will not be saved to the csv
+# Example how to exclude a specific message
+  - Die DynDNS-Aktualisierung war erfolgreich, anschließend trat jedoch ein Fehler bei der DNS-Auflösung auf.
+  - Der angegebene Domainname kann trotz erfolgreicher Aktualisierung nicht aufgelöst werden.
