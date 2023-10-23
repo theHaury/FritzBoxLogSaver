@@ -26,7 +26,7 @@
 2. Change to the project directory:
 
     ```sh
-    cd FRITZ-Box-Log-Saver
+    cd FRITZBox_Log_Saver
     ```
 
 3. Install the required Python packages:
@@ -37,7 +37,10 @@
 
 ## Usage
 
-1. Make sure you have created a settings.yaml file with your [configuration](#configuration). See the Configuration section for details.
+1. Make sure you have created a settings.yaml by renaming the example file [ex_settings.yaml](src/ex_settings.yaml) or by creating the settings.yaml
+    
+    1.1 Modify the settings with your specific [configuration](#configuration).<br>
+    1.2 The settings.yaml must be in the same folder as the main.py
 
 2. Run the application:
 
@@ -62,6 +65,7 @@
     ```
 
 2. Modify the values according to your FRITZ!Box login credentials and preferences.
+3. For a more detailed example please look in the Example File [ex_settings.yaml](src/ex_settings.yaml)
 
 ## Scheduled logging
 
